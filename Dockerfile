@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir tkinter sqlite3
 
 # Exposer le port que l'application utilisera
-EXPOSE 4000
+EXPOSE 8000
 
 # Lancer l'application
 CMD ["python", "app.py"]
