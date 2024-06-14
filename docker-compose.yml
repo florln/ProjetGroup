@@ -1,0 +1,9 @@
+version: '3'
+services:
+  contacts_manager:
+    build: .
+    container_name: contacts_manager
+    volumes:
+      - .:/app
+    ports:
+      - "4000:8000"
